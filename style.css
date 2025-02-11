@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
 
+.roboto-mono-<uniquifier> {
+  font-family: "Roboto Mono", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 body {
     background-color: #white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Roboto Mono", serif;
     color: #6900fc;
     font-size: 16px;
     line-height: 1.6;
@@ -12,7 +18,7 @@ body {
 
 
 .container {
-    width: 500px;
+    width: 800px;
     margin: 50px auto;
 }
 
@@ -21,7 +27,7 @@ body {
     background: #E7FBE6;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px #6900fc;
     margin-bottom: 20px;
 }
 
@@ -32,9 +38,10 @@ body {
 
 
 .img-circle {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
+    box-shadow: 6px 6px 0px #6900fc;
 }
 
 
@@ -50,7 +57,7 @@ body {
 
 
 a {
-    color: #007BFF;
+    color: #007bff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -79,3 +86,4 @@ a:hover {
     width: 300px;
   }
 }
+
